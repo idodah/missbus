@@ -15,7 +15,7 @@ def data_preprocessing():
     merged_df = pd.concat([pilot.get_final_dataframe(), authority.get_final_dataframe()])
 
     merged_df['isJewishHoliday'] = merged_df['busTime'].apply(new_features.check_if_day_is_holiday)
-    merged_df['weekDay'] = merged_df['busTime'].apply(new_features.check_if_day_in_weekend)
+    merged_df['weekDay'] = merged_df['busTime'].apply(new_features.get_day_in_week)
     merged_df['hour']=merged_df['busTime'].apply(new_features.get_hour)
 
     merged_df['rounded_datetime'] = merged_df['busTime'].dt.round('10min')
