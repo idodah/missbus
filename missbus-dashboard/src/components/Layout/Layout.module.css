@@ -1,0 +1,58 @@
+.base {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+  
+  .fullWidth {
+    width: 100%;
+  }
+
+  .fullHeight {
+    height: 100%
+  }
+  
+  .row {
+    flex-direction: row;
+  }
+  
+  .fitParent {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bottomBorder {
+    border-bottom: 1px solid #dfeaf1;
+  }
+  
+  .topBorder {
+    border-top: 1px solid #dfeaf1;
+  }
+  
+  .card {
+    background: #f6fbfe;
+    border-radius: 16px;
+  }
+  
+  .cardSecondary {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    transition: all 0.3s;
+  }
+  
+  .cardSecondaryRounded {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 32px;
+  }
+  
+  .clickable {
+    cursor: pointer;
+  }
+  
+  .cardSecondary.clickable:hover {
+    background: rgba(0, 0, 0, 0.02);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+  

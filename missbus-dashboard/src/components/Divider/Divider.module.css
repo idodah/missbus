@@ -1,0 +1,12 @@
+.divider {
+    height: 1px;
+    width: 100%;
+}
+
+.colorNormal {
+    background-color: #edf8ff;
+}
+
+.colorStrong {
+    background-color: #e2e2e2;
+}
