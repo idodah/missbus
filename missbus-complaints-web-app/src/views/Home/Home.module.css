@@ -1,0 +1,12 @@
+.emergencyButton {
+    background-color: #BB0000;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    max-width: 256px;
+}
+
+.emergencyText {
+    font-weight: 600;
+    font-size: 36px;
+}

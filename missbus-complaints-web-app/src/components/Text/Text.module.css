@@ -1,0 +1,104 @@
+.main {
+  text-align: right;
+}
+.center {
+  align-self: center;
+}
+
+.normal {
+  font-size: 16px;
+}
+
+.subTitle {
+  font-size: 20px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.bigTitle {
+  font-size: 30px;
+}
+
+.medium {
+  font-size: 14px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.smallError {
+  font-size: 12px;
+  color: #E23F33;
+}
+
+.smallSuccess {
+  font-size: 12px;
+  color: #05B20C;
+}
+
+.smallInfo {
+  font-size: 12px;
+  color: #29ABE2;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #007acc;
+}
+
+.success {
+  font-size: 14px;
+  color: #05B20C;
+}
+
+.error {
+  font-size: 14px;
+  color: #E23F33;
+}
+
+.black {
+  color: #161616;
+}
+
+.red {
+  color: #E23F33;
+}
+
+.green {
+  color: #00db07;
+}
+
+.white {
+  color: white
+}
+
+.gray {
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.darkGray {
+  color: #878787;
+}
+
+.info {
+  color: #29ABE2;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normalWeight {
+  font-weight: 400;
+}
+.blueBackground{
+  background-color: #0b80fa;
+  border-radius: 30px;
+  padding: 7px 13.5px 8px 13.5px;
+}
+
+

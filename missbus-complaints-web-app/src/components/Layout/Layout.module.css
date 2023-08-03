@@ -1,0 +1,25 @@
+.base {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.border {
+  border-radius: 16px;
+}
+
+.hoverEffect {
+  transition: opacity 0.2s;
+}
+
+.hoverEffect:hover {
+  opacity: 0.8;
+}
+
+.clickable {
+  cursor: pointer;
+}

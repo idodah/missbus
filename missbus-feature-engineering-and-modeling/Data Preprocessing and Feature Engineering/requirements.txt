@@ -1,0 +1,3 @@
+pandas
+pyluach
+firebase_admin
