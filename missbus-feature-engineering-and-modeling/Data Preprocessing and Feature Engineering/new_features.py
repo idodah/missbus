@@ -19,6 +19,12 @@ def get_day_in_week(dt):
       return 0
     else:
       return dt.weekday()+1
+
+def get_hour(dt):
+   if dt.minute>30:
+      return dt.hour+1
+   else:
+      return dt.hour
     
 def get_meteorological_data():
     """
